@@ -1,4 +1,5 @@
-package RunnableHilos;
+package examenparcial1;
+
 //Mostrar el nombre de 2 corredores y simular que corren una carrera de 30 km.
 public class AnimalesWithThread extends Thread {
     String nombre;
