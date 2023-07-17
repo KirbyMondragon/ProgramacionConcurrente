@@ -1,0 +1,18 @@
+
+Imagina que los semáforos son como controladores de tráfico en una calle.
+ Hay uno que permite que solo tres canarios puedan acceder al plato de alpiste al mismo tiempo,
+  y otro que permite que solo un canario pueda estar en el columpio a la vez.
+
+Cada canario tiene una tarea específica que debe realizar.
+ Primero, el canario solicita permiso para acceder al plato de alpiste.
+ Una vez que obtiene el permiso, puede comer del plato. Luego, solicita permiso para usar el columpio.
+ Después de un tiempo en el columpio, el canario finaliza su actividad y libera los permisos
+ para que otros canarios puedan usarlos.
+
+Esta forma de organización garantiza que solo tres canarios puedan comer del plato de alpiste al mismo
+tiempo y que solo un canario pueda estar en el columpio. Evita que los canarios se choquen entre sí o que
+haya problemas por querer usar los mismos lugares al mismo tiempo.
+
+
+Creamos dos codigos, el primero es BirdStoreMT. La diferencia es una implementacion de for para la creacion de 
+un id y simplificar el codigo.
